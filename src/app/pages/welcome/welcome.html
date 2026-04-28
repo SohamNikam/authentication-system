@@ -1,0 +1,35 @@
+<div class="welcome-page">
+  <div class="welcome-container">
+    <div class="welcome-content">
+      <div class="welcome-header">
+        <h1>Welcome to My Website! 🎉</h1>
+        <p class="welcome-subtitle">You have successfully logged in</p>
+      </div>
+
+      <div class="welcome-body">
+        <div class="welcome-card">
+          <h2>Getting Started</h2>
+          <p>Explore the features of our platform:</p>
+          <ul class="features-list">
+            <li>📊 Dashboard - View your analytics</li>
+            <li>👥 User Management - Manage your profile</li>
+            <li>⚙️ Settings - Customize your experience</li>
+            <li>📞 Support - Get help when you need it</li>
+          </ul>
+        </div>
+
+        <div class="welcome-actions">
+          <button class="btn-primary" routerLink="/dashboard">
+            Go to Dashboard
+          </button>
+          <button class="btn-secondary" routerLink="/profile">
+            View Profile
+          </button>
+          <button class="btn-logout" (click)="logout()">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
